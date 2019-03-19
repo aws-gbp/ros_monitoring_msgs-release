@@ -1,3 +1,26 @@
+## ros_monitoring_msgs (melodic) - 1.0.0-0
+
+The packages in the `ros_monitoring_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release ros_monitoring_msgs --track melodic --rosdistro melodic -e` on `Tue, 19 Mar 2019 23:04:14 -0000`
+
+The `ros_monitoring_msgs` package was released.
+
+Version of package(s) in repository `ros_monitoring_msgs`:
+
+- upstream repository: https://github.com/aws-robotics/monitoringmessages-ros1.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## ros_monitoring_msgs (kinetic) - 1.0.0-3
 
 The packages in the `ros_monitoring_msgs` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -t kinetic -r kinetic ros_monitoring_msgs` on `Tue, 27 Nov 2018 03:19:22 -0000`
