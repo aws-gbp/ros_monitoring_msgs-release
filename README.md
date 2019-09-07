@@ -1,25 +1,23 @@
-# aws-ros-monitoringmessages-ros1
+# aws-ros-monitoringmessages-ros2
+**Note: This repository is under active development. The package provided here is a release candidate; the API may change without notice and no support is provided for it at the moment.**
 `ros_monitoring_msgs` package for facilitating the use of monitoring-related AWS cloud services.
 
-This package primarily provides ROS message types for use with Amazon CloudWatch, and is used by the [cloudwatch_metrics_collector](https://github.com/aws-robotics/cloudwatchmetrics-ros1) node. 
+This package primarily provides ROS message types for use with Amazon CloudWatch, and is used by the [cloudwatch_metrics_collector](https://github.com/aws-robotics/cloudwatchmetrics-ros2) node. 
 For example, the `MetricData` message corresponds to a [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html), and the `MetricDimension` to [Dimension](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Dimension.html). 
 
 ### Supported ROS Distributions
-* Kinetic
-* Melodic
+* Dashing 
 
 ### Build status
 * Travis CI:
-    * "master" branch [![Build Status](https://travis-ci.org/aws-robotics/monitoringmessages-ros1.svg?branch=master)](https://travis-ci.org/aws-robotics/monitoringmessages-ros1/branches)
-    * "release-latest" branch [![Build Status](https://travis-ci.org/aws-robotics/monitoringmessages-ros1.svg?branch=release-latest)](https://travis-ci.org/aws-robotics/monitoringmessages-ros1/branches)
+    * "master" branch [![Build Status](https://travis-ci.org/aws-robotics/monitoringmessages-ros2.svg?branch=master)](https://travis-ci.org/aws-robotics/monitoringmessages-ros2/branches)
 * ROS build farm:
-    * ROS Kinetic @ u16.04 Xenial [![Build Status](http://build.ros.org/job/Kbin_uX64__ros_monitoring_msgs__ubuntu_xenial_amd64__binary/badge/icon)](http://build.ros.org/job/Kbin_uX64__ros_monitoring_msgs__ubuntu_xenial_amd64__binary)
-    * ROS Melodic @ u18.04 Bionic [![Build Status](http://build.ros.org/job/Mbin_uB64__ros_monitoring_msgs__ubuntu_bionic_amd64__binary/badge/icon)](http://build.ros.org/job/Mbin_uB64__ros_monitoring_msgs__ubuntu_bionic_amd64__binary)
-
+    * ROS Dashing @ u18.04 Bionic **Not Yet Released**
 
 ## Installation
 
 ### Binaries
+**Binaries not yet available in apt**
 On Ubuntu you can install the latest version of this package using the following command
 
         sudo apt-get update
@@ -36,7 +34,7 @@ To build from source you'll need to create a new workspace, clone and checkout t
 - Clone the package into the source directory . 
 
         cd ~/ros-workspace/src
-        git clone https://github.com/aws-robotics/monitoringmessages-ros1.git -b release-latest
+        git clone https://github.com/aws-robotics/monitoringmessages-ros2.git
 
 - Install dependencies
 
@@ -52,4 +50,5 @@ _Note: If building the master branch instead of a release branch you may need to
 
 - Configure ROS library path
 
-        source ~/ros-workspace/install/setup.bash
+        source ~/ros-workspace/install/local_setup.bash
+

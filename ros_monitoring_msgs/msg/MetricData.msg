@@ -31,11 +31,11 @@ string metric_name
 # The units applied to the value
 string unit
 
-# The value of the metric
+# The value of the metriuint64c
 float64 value
 
 # The time since the epoch
-time time_stamp
+builtin_interfaces/Time time_stamp
 
 # optional Custom dimensions used to group/sort metrics
 MetricDimension[] dimensions

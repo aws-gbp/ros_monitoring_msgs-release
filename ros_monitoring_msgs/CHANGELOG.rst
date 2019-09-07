@@ -2,8 +2,10 @@
 Changelog for package ros_monitoring_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.1 (2019-08-01)
+2.0.0 (2019-09-06)
 ------------------
-* increment patch version (`#19 <https://github.com/aws-robotics/monitoringmessages-ros1/issues/19>`_)
-  Signed-off-by: Miaofei <miaofei@amazon.com>
-* Contributors: M. M
+* Bump version to 2.0.0
+* Initial ROS2 migration (`#1 <https://github.com/aws-robotics/monitoringmessages-ros2/issues/1>`_)
+  * Initial ROS2 migration
+  * Remove message_runtime from package.xml
+* Contributors: Avishay Alon, ryanewel
